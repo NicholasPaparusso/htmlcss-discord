@@ -27,6 +27,8 @@ body{
   border-top-right-radius: 40px;
   border-top-left-radius:40px;
   background-color: white;
+  padding: 16px;
+  cursor: pointer;
 }
 .debug{
   border: 2px solid salmon;
@@ -87,20 +89,18 @@ header .menu ul li a:hover{
 }
 
 header .button{
-  padding: 6px;
+  padding: 8px;
 }
 
 header .button.access a{
   text-decoration: none;
   color: #23272a;
-  padding: 6px;
   font-size: 14px;
 }
 
 header .button.access a:hover{
   text-decoration: underline;
   color: lightskyblue;
-  padding: 6px;
 }
 
 header .button.access:hover{
@@ -145,7 +145,6 @@ header .button.access:hover{
 }
 .jumbotron .button{
   font-size: 18px;
-  padding: 16px;
 }
 
 .jumbotron .open-discord{
@@ -191,6 +190,7 @@ main h2{
 
 main h3{
   font-size: 30px;
+  padding-bottom: 40px;
 }
 
 main .row.banner h2{
@@ -210,7 +210,6 @@ main .row .box-banner{
   align-items: center;
   gap: 20px;
 }
-
 
 main .row{
   padding: 150px 0;
@@ -235,10 +234,38 @@ main .row.banner .box-banner .content-banner{
 
 main .row.banner img{
 width:  140vh;
-  
 }
 
-main.
+main .container .cta{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  max-width: 600px;
+}
+
+main .container .cta img{
+  max-width: 650px;
+  position: relative;
+  bottom: -40px;
+}
+
+main .button.download-cta{
+  font-size: 18px;
+  background-color: #5865f2;
+}
+
+main .button.download-cta a{
+  text-decoration: none;
+  color: white;
+}
+
+main .button.download-cta:hover{
+  background-color: #8ea1e1;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+}
+
 
 /* /main */
 
