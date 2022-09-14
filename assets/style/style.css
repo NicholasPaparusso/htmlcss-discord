@@ -34,13 +34,12 @@ body a{
 
 .svg1{
   position: relative;
-  top: 200px
+  top: 10px
 }
 
 .svg2{
   transform: rotate(180deg);
   position: relative;
-  top: 850px
 }
 
 .svg3{
