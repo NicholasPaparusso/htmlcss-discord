@@ -29,7 +29,25 @@ body{
 
 body a{
   text-decoration: none;
+  
 }
+
+.svg1{
+  position: relative;
+  top: 200px
+}
+
+.svg2{
+  transform: rotate(180deg);
+  position: relative;
+  top: 850px
+}
+
+.svg3{
+  position: relative;
+  top: 50px;
+}
+
 /*General*/
 
 /*Utility*/
@@ -215,7 +233,7 @@ main .row{
  }
 
 
-main .row.banner , .second{
+main .row.banner, .row.channel{
   background-color: #f6f6f6;
 }
 
@@ -348,12 +366,10 @@ footer .button:hover{
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
 }
 
-
-
 .flex{
   margin-bottom: 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-/* /footer */
+/* /Footer */
